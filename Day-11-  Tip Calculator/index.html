@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <div>
+      <label for="bill amount"
+        >Bill Amount:
+        <input
+          type="number"
+          id="bill-amount"
+          name="bill amount"
+          placeholder="Write the amount "
+        />
+      </label>
+    </div>
+    <div>
+      <h3>Tip</h3>
+      <label for="fixed-tip"
+        >Fixed Tip:
+        <input
+          type="number"
+          id="fixed-tip"
+          name="fixed-tip"
+          placeholder="e.g., 10–20 birr"
+        />
+      </label>
+    </div>
+    <br />
+    <div>
+      <label for="percentage-tip"
+        >Percentage Tip:
+        <input
+          type="number"
+          id="percentage-tip"
+          name="percentage-tip"
+          placeholder="e.g., 10–15%"
+        />
+      </label>
+    </div>
+    <br />
+
+    <div>
+      <label for="people-split"
+        >Number of people:
+        <input
+          type="number"
+          id="people-split"
+          name="people-split"
+          placeholder="e.g., 3"
+        />
+      </label>
+    </div>
+    <br />
+    <div>
+      <button id="calculateBtn">Calculate</button>
+    </div>
+  </body>
+</html>
