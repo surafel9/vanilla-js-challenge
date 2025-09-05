@@ -16,7 +16,3 @@ A simple JavaScript dice rolling game built with HTML, CSS, and JS.
 ## Play the Game Online
 
 [![Play Now](https://img.shields.io/badge/Play-Now-brightgreen?style=for-the-badge&logo=playstation)](https://surafel9.github.io/dice-rolling-game/)
-
----
-
-Feel free to fork, star, and improve this project! 🎉
