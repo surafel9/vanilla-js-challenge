@@ -76,4 +76,6 @@ input[type='number']:focus {
   padding-top: 1rem;
   border-top: 1px solid #333;
   text-align: center;
+  font-size: large;
+  color: greenyellow;
 }
