@@ -19,4 +19,4 @@ The app displays the **tip amount per person and total per person** while provid
 
 ---
 
-![App Screenshot](./Screenshot%20From%202025-09-05%2022-28-38.png)
+![App Screenshot](./screenshot.png)
