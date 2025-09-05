@@ -57,7 +57,12 @@ input[type='number']:focus {
   outline: none;
   border-color: #64ffda;
 }
-
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#resetBtn,
 #calculateBtn {
   width: 100%;
   padding: 0.8rem;
