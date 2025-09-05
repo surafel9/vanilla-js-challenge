@@ -7,58 +7,44 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Tip Calculator</h1>
-    <div>
-      <label for="bill amount"
-        >Bill Amount:
+    <div class="calculator-container">
+      <h1>Tip Calculator</h1>
+
+      <div class="input-group">
+        <label for="bill-amount">Bill Amount</label>
         <input
           type="number"
           id="bill-amount"
-          name="bill amount"
-          placeholder="Write the amount "
+          placeholder="Enter the total bill"
         />
-      </label>
-    </div>
-    <div>
-      <h3>Tip</h3>
-      <label for="fixed-tip"
-        >Fixed Tip:
-        <input
-          type="number"
-          id="fixed-tip"
-          name="fixed-tip"
-          placeholder="e.g., 10–20 birr"
-        />
-      </label>
-    </div>
-    <br />
-    <div>
-      <label for="percentage-tip"
-        >Percentage Tip:
-        <input
-          type="number"
-          id="percentage-tip"
-          name="percentage-tip"
-          placeholder="e.g., 10–15%"
-        />
-      </label>
-    </div>
-    <br />
+      </div>
 
-    <div>
-      <label for="people-split"
-        >Number of people:
+      <div class="input-group">
+        <label for="fixed-tip">Fixed Tip</label>
+        <input type="number" id="fixed-tip" placeholder="e.g., 10" />
+      </div>
+
+      <div class="input-group">
+        <label for="percentage-tip">Percentage Tip</label>
+        <input type="number" id="percentage-tip" placeholder="e.g., 15" />
+      </div>
+
+      <div class="input-group">
+        <label for="people-split">Number of People</label>
         <input
           type="number"
           id="people-split"
-          name="people-split"
           placeholder="e.g., 3"
+          value="1"
         />
-      </label>
-    </div>
-    <br />
-    <div>
+      </div>
+
       <button id="calculateBtn">Calculate</button>
+
+      <div class="result-section" id="result-section">
+        <!-- Results will be injected here by JavaScript -->
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
