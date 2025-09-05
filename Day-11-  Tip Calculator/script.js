@@ -11,6 +11,7 @@ const numberOfPeople = document.getElementById('people-split');
 const calculate = document.getElementById('calculateBtn');
 
 const result = document.getElementById('result-section');
+const reset = document.getElementById('resetBtn');
 
 calculate.addEventListener('click', function () {
   const bill = parseFloat(billAmount.value);
@@ -30,4 +31,7 @@ calculate.addEventListener('click', function () {
   const message = `Total bill is ${totalWithTip} and per person is ${amountPerPerson}`;
 
   result.textContent = message;
+});
+reset.addEventListener('click', function () {
+  location.reload();
 });
