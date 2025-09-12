@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #948979;
+}
+
+.windows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 900px;
+  width: 100%;
+  padding: 1rem;
+}
+.window1,
+.window2,
+.window3 {
+  background: #222;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+#moreBtn {
+  background-color: aquamarine;
+}
+@media (max-width: 700px) {
+  .windows {
+    grid-template-columns: 1fr;
+  }
+}
