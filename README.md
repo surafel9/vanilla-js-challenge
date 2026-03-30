@@ -1,4 +1,4 @@
-# 🧠 30-Day Vanilla JavaScript Challenge
+# 🧠 Vanilla JavaScript Challenge
 
 This repo tracks my journey building 30 small projects using only **HTML**, **CSS**, and **Vanilla JS** — no frameworks, just pure JavaScript.
 
